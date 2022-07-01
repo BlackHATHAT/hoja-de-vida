@@ -1,0 +1,25 @@
+body{
+    background-image: url("https://images.emojiterra.com/google/noto-emoji/v2.034/128px/1f355.png");
+    justify-content: center;
+}
+h1 {
+    color: mediumblue;
+}
+img{
+    width: 400px;
+}
+#thirdDiv{
+    height: 600px;
+    background: lightskyblue;
+    padding: 50px;
+    border: 10px;
+    border-style: double;
+    text-align: center;
+}
+.divClass{
+    text-align: center;
+}
+#spanid{
+    font-size: 18px;
+    margin: 50px;
+}
