@@ -1,25 +1,31 @@
 body{
-    background-image: url("https://images.emojiterra.com/google/noto-emoji/v2.034/128px/1f355.png");
+    background-image: url("background.png");
     justify-content: center;
+    font-family: Arial, sans-serif;
 }
 h1 {
+    font-size: 70px;
     color: mediumblue;
 }
-img{
-    width: 400px;
-}
-#thirdDiv{
-    height: 600px;
-    background: lightskyblue;
-    padding: 50px;
-    border: 10px;
+.foto{
+    width: 200px;
+    border-radius: 50%;
     border-style: double;
-    text-align: center;
 }
-.divClass{
-    text-align: center;
+
+.banner{
+    display: flex;
+    justify-content: center;
+   
+    margin-bottom: 20px;
 }
-#spanid{
-    font-size: 18px;
-    margin: 50px;
+.banner-items{
+    margin: 0px 25px 0px 0px;
+}
+.cuadro{
+    margin: 0px auto;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+
 }
