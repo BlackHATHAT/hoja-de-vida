@@ -1,11 +1,17 @@
 body{
-    background-image: url("background.png");
+    background-color: whitesmoke;
     justify-content: center;
     font-family: Arial, sans-serif;
 }
 h1 {
     font-size: 70px;
-    color: mediumblue;
+    color: rgb(255, 255, 255);
+}
+.blanco{
+   color: rgb(255, 255, 255);
+}
+h2{
+    color: rgb(255, 255, 255);
 }
 .foto{
     width: 200px;
@@ -18,6 +24,7 @@ h1 {
     justify-content: center;
    
     margin-bottom: 20px;
+    background-image: url("banner3.jpg");
 }
 .banner-items{
     margin: 0px 25px 0px 0px;
@@ -28,4 +35,10 @@ h1 {
     display: flex;
     justify-content: center;
 
+}
+.elementos{
+    background-color: rgb(206, 206, 255);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
 }
